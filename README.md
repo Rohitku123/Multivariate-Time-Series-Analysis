@@ -2,19 +2,19 @@
 Timeseries Analysis using R
 # Multivariate Time Series Analysis: Inflation, Exchange Rate, and Nifty 50 in India
 
-## 📜 Overview
+##  Overview
 
 This project presents a multivariate time series analysis of key macroeconomic variables in India: **Inflation Rate Change (IChange)**, **Exchange Rate Change (EChange)**, and **Nifty 50 Index Change (NChange)**. The study utilizes a **Vector Autoregression (VAR)** model to investigate the dynamic relationships and interdependencies among these variables. The analysis focuses on data from January 2015 to January 2025.
 
 ---
 
-## 🧐 Motivation
+##  Motivation
 
 Understanding the complex interplay between inflation, currency fluctuations, and stock market performance is crucial for policymakers and investors in a developing economy like India. This paper aims to shed light on how these variables influence each other and how shocks to one variable propagate through the system, affecting the others.
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### Data
 
@@ -36,7 +36,7 @@ Understanding the complex interplay between inflation, currency fluctuations, an
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 * [cite_start]**No Granger Causality, but Instantaneous Causality:** While no variable was found to predict another in a lead-lag fashion, the existence of instantaneous causality indicates that the variables tend to move together simultaneously in response to shared economic events[cite: 155, 160].
 * **Impulse Response Analysis:** The IRF analysis provides insights into the magnitude and persistence of effects when a shock occurs in one variable.
@@ -47,7 +47,7 @@ Understanding the complex interplay between inflation, currency fluctuations, an
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 The analysis includes several key visualizations to illustrate the findings:
 
@@ -57,13 +57,13 @@ The analysis includes several key visualizations to illustrate the findings:
 
 ---
 
-## ✍️ Conclusion
+##  Conclusion
 
 This study demonstrates the applicability of VAR analysis for understanding macro-financial linkages in India. [cite_start]The findings provide valuable insights for policymakers aiming to manage inflation and investors seeking to navigate India's complex economic landscape[cite: 249, 251]. [cite_start]While the model captures essential dynamics, future work could explore non-linearities or structural breaks to enhance robustness[cite: 250].
 
 ---
 
-## 🔗 Related Work
+## Related Work
 
 * Bicchal, M. (2006). [cite_start]*Monetary Policy and Inflation in India: A Structural VAR Analysis*[cite: 254].
 * Patnaik, A. (2010). [cite_start]*STUDY OF INFLATION IN INDIA: A COINTEGRATED VECTOR AUTOREGRESSION APPROACH*[cite: 255, 256].
